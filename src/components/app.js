@@ -82,6 +82,12 @@ export default class App extends Component {
               stocks: [...this.state.stocks, stock]
             })
           })
+          .catch(error => {
+            return this.setState({
+              isFetching: false,
+              error: "API limit reached. Please try again in a minute."
+            })
+          })
       })
   }
 
