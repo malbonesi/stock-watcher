@@ -4,6 +4,8 @@ git clone https://github.com/malbonesi/stock-watcher.git
 cd stock-watcher
 npm i
 npm run serve
+
+visit localhost:1234
 ```
 *Some responsive elements require a refresh
 
