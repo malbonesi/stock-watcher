@@ -1,5 +1,4 @@
-To install
-
+To install:
 ```
 git clone https://github.com/malbonesi/stock-watcher.git 
 cd stock-watcher
@@ -9,9 +8,9 @@ npm run serve
 *Some responsive elements require a refresh
 
 Designer Questions:
-Are there specific responsive break-points to use?
-Are the exact paddings and margins available, or is there a Figma or Sketch file to reference?
-What is the font being used?
-Are there specific shadow measurements?
-Are there any psuedo-class changes or animations to include?
-Is the text color for the price labels between tablet and desktop supposed to be different?
+1. Are there specific responsive break-points to use?
+2. Are the exact paddings and margins available, or is there a Figma or Sketch file to reference?
+3. What is the font being used?
+4. Are there specific shadow measurements?
+5. Are there any psuedo-class changes or animations to include?
+6. Is the text color for the price labels between tablet and desktop supposed to be different?
