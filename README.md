@@ -16,3 +16,4 @@ Designer Questions:
 4. Are there specific shadow measurements?
 5. Are there any psuedo-class changes or animations to include?
 6. Is the text color for the price labels between tablet and desktop supposed to be different?
+7. How should the UI be reflected with a neutral change?
