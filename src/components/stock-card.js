@@ -27,7 +27,7 @@ export default props => {
   })
 
   let scaleClass = cn(
-    "sm:inline-block hidden flex relative p-4 w-28 h-50 lg:h-44 align-top",
+    "sm:inline-block hidden flex relative p-4 w-28 h-52 lg:h-44 align-top",
     {
       "positive-gradient": positive,
       "negative-gradient": !positive
@@ -56,7 +56,7 @@ export default props => {
         value={round(price, 2)}
         fadeDown={positive}
       />
-      <div class="sm:inline-block sm:w-58 lg:w-80 w-full h-full p-3 bg-white">
+      <div class="sm:inline-block sm:w-60 lg:w-80 w-full h-full p-3 bg-white">
         <div class="sm:block flex sm:flex-wrap items-baseline justify-between relative">
           <div class="sm:block truncate">
             <span class="block pr-4 font-bold text-xl truncate sm:text-2xl">
@@ -82,3 +82,4 @@ export default props => {
     </div>
   )
 }
+
